@@ -1,0 +1,35 @@
+$color-primary:#2c2d74;
+$color-secondary: #7a7dff;
+$color-accent:#b39a32;
+$color-info:#9496ff;
+$color-success:#ffe67a;
+$color-dark:#04050b;
+$color-light:#fdfcfb;
+
+
+.color-primary{
+  color: $color-light;
+   background: $color-primary;
+ }
+.color-secondary{
+  color: $color-light;
+  background: $color-secondary;
+}
+.color-accent{
+  color: $color-light;
+  background: $color-accent;
+}
+.color-info{
+  background: $color-info;
+}
+.color-success{
+  color: $color-light;
+  background: $color-success;
+}
+.color-dark{
+  color: $color-light;
+  background: $color-dark;
+}
+.color-light{
+  background: $color-light;
+}
