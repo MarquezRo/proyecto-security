@@ -1,4 +1,7 @@
 /* Color Theme Swatches in Hex */
+body {
+  font-family: 'Montserrat', sans-serif; }
+
 .color-primary {
   color: #FFFFFF;
   background: #072359; }
