@@ -1,50 +1,51 @@
+/* Color Theme Swatches in Hex */
 .color-primary {
-  color: #fdfcfb;
-  background: #2c2d74; }
+  color: #FFFFFF;
+  background: #072359; }
 
 .color-secondary {
-  color: #fdfcfb;
-  background: #7a7dff; }
+  color: #FFFFFF;
+  background: #0869A5; }
 
 .color-accent {
-  color: #fdfcfb;
-  background: #b39a32; }
+  color: #FFFFFF;
+  background: #00DDA5; }
 
 .color-info {
-  background: #9496ff; }
+  background: #0287A5; }
 
 .color-success {
-  color: #fdfcfb;
-  background: #ffe67a; }
+  color: #FFFFFF;
+  background: #00DDA5; }
 
 .color-dark {
-  color: #fdfcfb;
-  background: #04050b; }
+  color: #FFFFFF;
+  background: #000000; }
 
 .color-light {
-  background: #fdfcfb; }
+  background: #FFFFFF; }
 
 .badge-primary {
-  background: #9496ff; }
+  background: #0287A5; }
 
 .btn-secondary {
-  background: #7a7dff; }
+  background: #0869A5; }
 
 .btn-accent {
-  background: #b39a32;
-  color: #fdfcfb; }
+  background: #00DDA5;
+  color: #FFFFFF; }
 
 .btn-accent:hover {
-  background: #9f892c !important;
-  color: #fdfcfb; }
+  background: #00c492 !important;
+  color: #FFFFFF; }
 
 .btn-secondary:hover {
-  background: #6164ff !important; }
+  background: #075a8d !important; }
 
 .btn-primary:hover {
-  background: #1e1f4f !important; }
+  background: #03102a !important; }
 
 .btn-primary {
-  background: #2c2d74; }
+  background: #072359; }
 
 /*# sourceMappingURL=stylesheet.css.map */
