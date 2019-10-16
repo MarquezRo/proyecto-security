@@ -1,55 +1,54 @@
-/* Color Theme Swatches in Hex */
 body {
   font-family: 'Montserrat', sans-serif; }
 
 .color-primary {
-  color: #FFFFFF;
-  background: #072359; }
+  color: #e8eaf6;
+  background: #2c2d74; }
 
 .color-secondary {
-  color: #FFFFFF;
-  background: #0869A5; }
+  color: #e8eaf6;
+  background: #354e9d; }
 
 .color-accent {
-  color: #FFFFFF;
+  color: #e8eaf6;
   background: #00DDA5; }
 
 .color-info {
-  background: #0287A5; }
+  background: #a6dae8; }
 
 .color-success {
-  color: #FFFFFF;
-  background: #00DDA5; }
+  color: #e8eaf6;
+  background: #229341; }
 
 .color-dark {
-  color: #FFFFFF;
-  background: #000000; }
+  color: #e8eaf6;
+  background: #212121; }
 
 .color-light {
-  background: #FFFFFF; }
+  background: #e8eaf6; }
 
 .badge-primary {
-  background: #0287A5; }
+  background: #a6dae8; }
 
 .btn-secondary {
-  background: #0869A5; }
+  background: #354e9d; }
 
 .btn-accent {
   background: #00DDA5;
-  color: #FFFFFF; }
+  color: #e8eaf6; }
 
 .btn-accent:hover {
   background: #00c492 !important;
-  color: #FFFFFF; }
+  color: #e8eaf6; }
 
 .btn-secondary:hover {
-  background: #075a8d !important; }
+  background: #2f458a !important; }
 
 .btn-primary:hover {
-  background: #03102a !important; }
+  background: #1e1f4f !important; }
 
 .btn-primary {
-  background: #072359; }
+  background: #2c2d74; }
 
 #card-2 {
   border-radius: 30px;
