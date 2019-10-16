@@ -55,4 +55,8 @@ body {
   border-radius: 30px;
   box-shadow: 3px 3px rgba(0, 0, 0, 0.2); }
 
+#card-3 {
+  border: none;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.5); }
+
 /*# sourceMappingURL=stylesheet.css.map */
