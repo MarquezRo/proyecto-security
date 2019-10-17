@@ -1,9 +1,12 @@
+
+
+
 .btn-secondary{
   background: $color-secondary;
 }
 .btn-accent {
   background: $color-accent;
-  color: black;
+  color: $color-dark;
 }
 
 .btn-accent:hover {
@@ -16,7 +19,7 @@
 .btn-primary:hover {
   background: darken($color-primary, 10%) !important;
 }
-.btn {
-  ;
-}
+
+
+
 
