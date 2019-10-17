@@ -1,5 +1,6 @@
 /* colors*/
 /* colors alerts */
+/* badget alerts */
 body {
   font-family: 'Montserrat', sans-serif; }
 
@@ -37,7 +38,7 @@ body {
 
 .btn-accent {
   background: #00fcc4;
-  color: #e8eaf6; }
+  color: black; }
 
 .btn-accent:hover {
   background: #00e3b0 !important;
