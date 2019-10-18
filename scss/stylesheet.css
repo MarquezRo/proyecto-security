@@ -1,8 +1,10 @@
 /* colors*/
 /* colors alerts */
+/* badget alerts */
 body {
   font-family: 'Montserrat', sans-serif; }
 
+/*color basicos*/
 .color-primary {
   color: #e8eaf6;
   background: #2c2d74; }
@@ -28,6 +30,69 @@ body {
 
 .color-light {
   background: #e8eaf6; }
+
+.color-warning {
+  background: #fdd835; }
+
+.color-danger {
+  background: #CC0000; }
+
+/*badget*/
+.badget-primary {
+  background: #2c2d74; }
+
+.badget-accent {
+  background: #00fcc4; }
+
+.badget-secondary {
+  background: #354e9d; }
+
+.badget-info {
+  background: #a6dae8; }
+
+.badget-success {
+  background: #229341; }
+
+.badget-danger {
+  background: #CC0000; }
+
+.badget-warning {
+  background: #fdd835; }
+
+.badget-light {
+  background: #e8eaf6; }
+
+.badget-dark {
+  background: #212121; }
+
+/* alert */
+.alert-primary {
+  background: #323388; }
+
+.alert-accent {
+  background: #00ffc7; }
+
+.alert-secondary {
+  background: #3952b1; }
+
+.alert-info {
+  background: #b6eefc;
+  color: #212121; }
+
+.alert-success {
+  background: #22a74b; }
+
+.alert-danger {
+  background: #e00000; }
+
+.alert-warning {
+  background: #ffed2c; }
+
+.alert-light {
+  background: #f1f3ff; }
+
+.alert-dark {
+  background: #2a2a2a; }
 
 .badge-primary {
   background: #a6dae8; }
