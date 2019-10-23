@@ -44,7 +44,6 @@ body {
   background: $color-secondary;
 }
 .color-accent{
-  color: $color-light;
   background: $color-accent;
 }
 .color-info{
@@ -65,6 +64,7 @@ body {
   background: $color-warning;
 }
 .color-danger{
+  color: $color-light;
   background: $color-danger;
 }
 
