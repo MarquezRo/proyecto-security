@@ -1,11 +1,11 @@
 $color-alert: (
-        "primary": #323388,
+        "primary": #3233a6,
         "accent": #00ffc7,
-        "secondary":#3952b1,
+        "secondary":#3952c5,
         "info":#b6eefc,
-        "success":#22a74b,
-        "danger":#e00000,
-        "warning":#ffed2c,
+        "success":#22a75f,
+        "danger":#e01e2c,
+        "warning":#ffe14e,
         "light":#f1f3ff,
         "dark":#2a2a2a,
 );
@@ -13,5 +13,7 @@ $color-alert: (
 // Clase de alertas
 @each $color-name,$color in $color-alert {
   .alert-#{$color-name} {
-    color: $color !important;}
+    background-color: $color !important;
+    color: darken($color,50%)  !important;
+    border-color: lighten($color,50%) !important;}
 }

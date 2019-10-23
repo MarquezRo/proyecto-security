@@ -120,31 +120,49 @@ body {
   background: #212121; }
 
 .alert-primary {
-  color: #323388 !important; }
+  background-color: #3233a6 !important;
+  color: black !important;
+  border-color: #e1e1f6 !important; }
 
 .alert-accent {
-  color: #00ffc7 !important; }
+  background-color: #00ffc7 !important;
+  color: black !important;
+  border-color: white !important; }
 
 .alert-secondary {
-  color: #3952b1 !important; }
+  background-color: #3952c5 !important;
+  color: black !important;
+  border-color: #fefeff !important; }
 
 .alert-info {
-  color: #b6eefc !important; }
+  background-color: #b6eefc !important;
+  color: #078bac !important;
+  border-color: white !important; }
 
 .alert-success {
-  color: #22a74b !important; }
+  background-color: #22a75f !important;
+  color: black !important;
+  border-color: #d2f6e3 !important; }
 
 .alert-danger {
-  color: #e00000 !important; }
+  background-color: #e01e2c !important;
+  color: black !important;
+  border-color: #fffefe !important; }
 
 .alert-warning {
-  color: #ffed2c !important; }
+  background-color: #ffe14e !important;
+  color: #4e4100 !important;
+  border-color: white !important; }
 
 .alert-light {
-  color: #f1f3ff !important; }
+  background-color: #f1f3ff !important;
+  color: #0022f1 !important;
+  border-color: white !important; }
 
 .alert-dark {
-  color: #2a2a2a !important; }
+  background-color: #2a2a2a !important;
+  color: black !important;
+  border-color: #aaaaaa !important; }
 
 .badge-primary {
   background: #a6dae8; }
