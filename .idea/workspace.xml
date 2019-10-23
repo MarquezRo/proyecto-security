@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50fe1b64-04bf-43c5-9112-64f5cec7cf14" name="Default Changelist" comment="presentación 1">
-      <change afterPath="$PROJECT_DIR$/html/securekits.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/securekits.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/securekits.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +32,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Inma\Desktop\proyecto-security\untitled\html" />
       <recent name="C:\Users\Inma\WebstormProjects\untitled\html" />
     </key>
   </component>
@@ -58,7 +60,8 @@
       <updated>1570869286155</updated>
       <workItem from="1570869287829" duration="1680000" />
       <workItem from="1570991783392" duration="19319000" />
-      <workItem from="1571817193064" duration="1415000" />
+      <workItem from="1571817193064" duration="2789000" />
+      <workItem from="1571820394858" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="error 1">
       <created>1571039957394</created>
