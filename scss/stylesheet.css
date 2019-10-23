@@ -32,6 +32,33 @@ body {
 .text-dark {
   color: #212121; }
 
+.bg-primary {
+  color: #2c2d74; }
+
+.bg-accent {
+  color: #00fcc4; }
+
+.bg-secondary {
+  color: #354e9d; }
+
+.bg-info {
+  color: #a6dae8; }
+
+.bg-success {
+  color: #229341; }
+
+.bg-danger {
+  color: #CC0000; }
+
+.bg-warning {
+  color: #fdd835; }
+
+.bg-light {
+  color: #e8eaf6; }
+
+.bg-dark {
+  color: #212121; }
+
 /*color basicos*/
 .color-primary {
   color: #e8eaf6;

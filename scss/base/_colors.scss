@@ -55,6 +55,12 @@ body {
     color: $color;
   }
 }
+// Clase de background
+@each $color-name,$color in $color-list {
+  .bg-#{$color-name} {
+    color: $color;
+  }
+}
 
 /*color basicos*/
 .color-primary{
