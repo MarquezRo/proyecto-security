@@ -164,6 +164,51 @@ body {
   color: black !important;
   border-color: #aaaaaa !important; }
 
+.alert-primary .alert-link {
+  background-color: #3233a6 !important;
+  color: black !important;
+  border-color: #e1e1f6 !important; }
+
+.alert-accent .alert-link {
+  background-color: #00ffc7 !important;
+  color: black !important;
+  border-color: white !important; }
+
+.alert-secondary .alert-link {
+  background-color: #3952c5 !important;
+  color: black !important;
+  border-color: #fefeff !important; }
+
+.alert-info .alert-link {
+  background-color: #b6eefc !important;
+  color: #078bac !important;
+  border-color: white !important; }
+
+.alert-success .alert-link {
+  background-color: #22a75f !important;
+  color: black !important;
+  border-color: #d2f6e3 !important; }
+
+.alert-danger .alert-link {
+  background-color: #e01e2c !important;
+  color: black !important;
+  border-color: #fffefe !important; }
+
+.alert-warning .alert-link {
+  background-color: #ffe14e !important;
+  color: #4e4100 !important;
+  border-color: white !important; }
+
+.alert-light .alert-link {
+  background-color: #f1f3ff !important;
+  color: #0022f1 !important;
+  border-color: white !important; }
+
+.alert-dark .alert-link {
+  background-color: #2a2a2a !important;
+  color: black !important;
+  border-color: #aaaaaa !important; }
+
 .badge-primary {
   background: #a6dae8; }
 

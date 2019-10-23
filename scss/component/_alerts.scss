@@ -17,3 +17,9 @@ $color-alert: (
     color: darken($color,50%)  !important;
     border-color: lighten($color,50%) !important;}
 }
+@each $color-name,$color in $color-alert {
+  .alert-#{$color-name} .alert-link {
+    background-color: $color !important;
+    color: darken($color,50%)  !important;
+    border-color: lighten($color,50%) !important;}
+}
