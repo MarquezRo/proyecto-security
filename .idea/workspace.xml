@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50fe1b64-04bf-43c5-9112-64f5cec7cf14" name="Default Changelist" comment="presentación 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/securekits.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <updated>1570869286155</updated>
       <workItem from="1570869287829" duration="1680000" />
       <workItem from="1570991783392" duration="19319000" />
-      <workItem from="1571817193064" duration="1012000" />
+      <workItem from="1571817193064" duration="1415000" />
     </task>
     <task id="LOCAL-00001" summary="error 1">
       <created>1571039957394</created>
