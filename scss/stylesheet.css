@@ -1,6 +1,5 @@
 /*color-list*/
 /* colors*/
-/* colors alerts */
 /* badget alerts */
 body {
   font-family: 'Montserrat', sans-serif; }
@@ -120,34 +119,32 @@ body {
 .badget-dark {
   background: #212121; }
 
-/* alert */
 .alert-primary {
-  background: #323388; }
+  color: #323388 !important; }
 
 .alert-accent {
-  background: #00ffc7; }
+  color: #00ffc7 !important; }
 
 .alert-secondary {
-  background: #3952b1; }
+  color: #3952b1 !important; }
 
 .alert-info {
-  background: #b6eefc;
-  color: #212121; }
+  color: #b6eefc !important; }
 
 .alert-success {
-  background: #22a74b; }
+  color: #22a74b !important; }
 
 .alert-danger {
-  background: #e00000; }
+  color: #e00000 !important; }
 
 .alert-warning {
-  background: #ffed2c; }
+  color: #ffed2c !important; }
 
 .alert-light {
-  background: #f1f3ff; }
+  color: #f1f3ff !important; }
 
 .alert-dark {
-  background: #2a2a2a; }
+  color: #2a2a2a !important; }
 
 .badge-primary {
   background: #a6dae8; }

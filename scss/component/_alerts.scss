@@ -1,0 +1,17 @@
+$color-alert: (
+        "primary": #323388,
+        "accent": #00ffc7,
+        "secondary":#3952b1,
+        "info":#b6eefc,
+        "success":#22a74b,
+        "danger":#e00000,
+        "warning":#ffed2c,
+        "light":#f1f3ff,
+        "dark":#2a2a2a,
+);
+
+// Clase de alertas
+@each $color-name,$color in $color-alert {
+  .alert-#{$color-name} {
+    color: $color !important;}
+}
