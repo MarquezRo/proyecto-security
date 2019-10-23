@@ -6,58 +6,58 @@ body {
   font-family: 'Montserrat', sans-serif; }
 
 .text-primary {
-  color: #2c2d74; }
+  color: #2c2d74 !important; }
 
 .text-accent {
-  color: #00fcc4; }
+  color: #00fcc4 !important; }
 
 .text-secondary {
-  color: #354e9d; }
+  color: #354e9d !important; }
 
 .text-info {
-  color: #a6dae8; }
+  color: #a6dae8 !important; }
 
 .text-success {
-  color: #229341; }
+  color: #229341 !important; }
 
 .text-danger {
-  color: #CC0000; }
+  color: #CC0000 !important; }
 
 .text-warning {
-  color: #fdd835; }
+  color: #fdd835 !important; }
 
 .text-light {
-  color: #e8eaf6; }
+  color: #e8eaf6 !important; }
 
 .text-dark {
-  color: #212121; }
+  color: #212121 !important; }
 
 .bg-primary {
-  color: #2c2d74; }
+  background-color: #2c2d74 !important; }
 
 .bg-accent {
-  color: #00fcc4; }
+  background-color: #00fcc4 !important; }
 
 .bg-secondary {
-  color: #354e9d; }
+  background-color: #354e9d !important; }
 
 .bg-info {
-  color: #a6dae8; }
+  background-color: #a6dae8 !important; }
 
 .bg-success {
-  color: #229341; }
+  background-color: #229341 !important; }
 
 .bg-danger {
-  color: #CC0000; }
+  background-color: #CC0000 !important; }
 
 .bg-warning {
-  color: #fdd835; }
+  background-color: #fdd835 !important; }
 
 .bg-light {
-  color: #e8eaf6; }
+  background-color: #e8eaf6 !important; }
 
 .bg-dark {
-  color: #212121; }
+  background-color: #212121 !important; }
 
 /*color basicos*/
 .color-primary {
