@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="50fe1b64-04bf-43c5-9112-64f5cec7cf14" name="Default Changelist" comment="presentación 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/base/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/component/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/component/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/component/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/component/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/stylesheet.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/stylesheet.css.map" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +58,7 @@
       <updated>1570869286155</updated>
       <workItem from="1570869287829" duration="1680000" />
       <workItem from="1570991783392" duration="19319000" />
+      <workItem from="1571817193064" duration="1012000" />
     </task>
     <task id="LOCAL-00001" summary="error 1">
       <created>1571039957394</created>
@@ -82,7 +78,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
