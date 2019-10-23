@@ -1,8 +1,36 @@
+/*color-list*/
 /* colors*/
 /* colors alerts */
 /* badget alerts */
 body {
   font-family: 'Montserrat', sans-serif; }
+
+.text-primary {
+  color: #2c2d74; }
+
+.text-accent {
+  color: #00fcc4; }
+
+.text-secondary {
+  color: #354e9d; }
+
+.text-info {
+  color: #a6dae8; }
+
+.text-success {
+  color: #229341; }
+
+.text-danger {
+  color: #CC0000; }
+
+.text-warning {
+  color: #fdd835; }
+
+.text-light {
+  color: #e8eaf6; }
+
+.text-dark {
+  color: #212121; }
 
 /*color basicos*/
 .color-primary {
