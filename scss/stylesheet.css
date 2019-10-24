@@ -410,6 +410,42 @@ body {
   color: #a1a1a1 !important;
   border-color: #212121 !important; }
 
+.btn-primary:disabled {
+  background-color: #26277f !important;
+  border-color: #26277f !important; }
+
+.btn-accent:disabled {
+  background-color: #00cc9f !important;
+  border-color: #00cc9f !important; }
+
+.btn-secondary:disabled {
+  background-color: #2e429d !important;
+  border-color: #2e429d !important; }
+
+.btn-info:disabled {
+  background-color: #85e3fa !important;
+  border-color: #85e3fa !important; }
+
+.btn-success:disabled {
+  background-color: #197d47 !important;
+  border-color: #197d47 !important; }
+
+.btn-danger:disabled {
+  background-color: #b31823 !important;
+  border-color: #b31823 !important; }
+
+.btn-warning:disabled {
+  background-color: #ffd81b !important;
+  border-color: #ffd81b !important; }
+
+.btn-light:disabled {
+  background-color: #bec7ff !important;
+  border-color: #bec7ff !important; }
+
+.btn-dark:disabled {
+  background-color: #111111 !important;
+  border-color: #111111 !important; }
+
 .btn-primary {
   background: #2c2d74; }
 

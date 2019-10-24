@@ -34,12 +34,22 @@
     border-color: $color !important;
   }
 }
+// Clase de boton activo
 
 @each $color-name,$color in $color-list {
   .btn-#{$color-name}:not(:disabled):not(disabled):active, .btn-#{$color-name}:not(:disabled):not(.disabled).active,.show > .btn-#{$color-name}.dropdown-toggle{
     background-color: $color !important;
     color: lighten($color,50%) !important;
     border-color: $color !important;
+  }
+}
+
+// Clase de botones disabled
+
+@each $color-name,$color in $color-alert {
+  .btn-#{$color-name}:disabled {
+    background-color: darken($color,10%) !important;
+    border-color: darken($color,10%) !important;
   }
 }
 
