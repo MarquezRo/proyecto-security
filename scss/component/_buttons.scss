@@ -34,3 +34,12 @@
     border-color: $color !important;
   }
 }
+
+@each $color-name,$color in $color-list {
+  .btn-#{$color-name}:not(:disabled):not(disabled):active, .btn-#{$color-name}:not(:disabled):not(.disabled).active,.show > .btn-#{$color-name}.dropdown-toggle{
+    background-color: $color !important;
+    color: lighten($color,50%) !important;
+    border-color: $color !important;
+  }
+}
+
