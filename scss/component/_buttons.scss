@@ -1,5 +1,36 @@
-// Clase de alertas
+// Clase de botones 1
+
 @each $color-name,$color in $color-list {
   .btn-#{$color-name} {
-    background-color: $color
-    border-color: $color !important}
+    background-color: $color;
+    border-color: $color;
+  }
+}
+
+// Clase de botones 1 hover
+
+@each $color-name,$color in $color-list {
+  .btn-#{$color-name}:hover {
+    background-color: darken($color,10%) !important;
+    border-color: darken($color,10%) !important;
+  }
+}
+
+  // Clase de botones outline
+
+  @each $color-name,$color in $color-list {
+    .btn-outline-#{$color-name} {
+      color: $color;
+      border-color: $color;
+    }
+  }
+
+// Clase de botones outline hover
+
+@each $color-name,$color in $color-list {
+  .btn-outline-#{$color-name}:hover {
+    background-color: $color !important;
+    color: lighten($color,50%) !important;
+    border-color: $color !important;
+  }
+}
