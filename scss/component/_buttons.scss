@@ -46,7 +46,7 @@
 
 // Clase de botones disabled
 
-@each $color-name,$color in $color-alert {
+@each $color-name,$color in $color-list {
   .btn-#{$color-name}:disabled {
     background-color: darken($color,10%) !important;
     border-color: darken($color,10%) !important;

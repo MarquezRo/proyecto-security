@@ -1,16 +1,4 @@
-/*color-list*/
 
-$color-list: (
-        "primary": #2c2d74,
-        "accent": #00fcc4,
-        "secondary":#354e9d,
-        "info":#a6dae8,
-        "success":#229341,
-        "danger":#CC0000,
-        "warning":#fdd835,
-        "light":#e8eaf6,
-        "dark":#212121,
-);
 // Colores badget
 
 @each $color-name,$color in $color-list {

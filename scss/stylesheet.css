@@ -1,8 +1,5 @@
-/*color-list*/
 /* colors*/
-body {
-  font-family: 'Montserrat', sans-serif; }
-
+/*color-list*/
 .text-primary {
   color: #2c2d74 !important; }
 
@@ -90,97 +87,100 @@ body {
   color: #e8eaf6;
   background: #CC0000; }
 
+/* fuente */
+body {
+  font-family: 'Montserrat', sans-serif; }
+
 .alert-primary {
-  background-color: #3233a6 !important;
-  color: black !important;
-  border-color: #e1e1f6 !important; }
+  background-color: #9596d7 !important;
+  color: #020205 !important;
+  border-color: #3a3b99 !important; }
 
 .alert-accent {
-  background-color: #00ffc7 !important;
-  color: black !important;
-  border-color: white !important; }
+  background-color: #c9fff3 !important;
+  color: #00634d !important;
+  border-color: #30ffd1 !important; }
 
 .alert-secondary {
-  background-color: #3952c5 !important;
-  color: black !important;
-  border-color: #fefeff !important; }
+  background-color: #b7c3e7 !important;
+  color: #0e152b !important;
+  border-color: #4562c0 !important; }
 
 .alert-info {
-  background-color: #b6eefc !important;
-  color: #078bac !important;
-  border-color: white !important; }
+  background-color: white !important;
+  color: #32a4c3 !important;
+  border-color: #cfebf2 !important; }
 
 .alert-success {
-  background-color: #22a75f !important;
-  color: black !important;
-  border-color: #d2f6e3 !important; }
+  background-color: #99e8af !important;
+  color: #05170a !important;
+  border-color: #2cbc53 !important; }
 
 .alert-danger {
-  background-color: #e01e2c !important;
-  color: black !important;
-  border-color: #fffefe !important; }
+  background-color: #ff9999 !important;
+  color: #330000 !important;
+  border-color: red !important; }
 
 .alert-warning {
-  background-color: #ffe14e !important;
-  color: #4e4100 !important;
-  border-color: white !important; }
+  background-color: white !important;
+  color: #987c02 !important;
+  border-color: #fee268 !important; }
 
 .alert-light {
-  background-color: #f1f3ff !important;
-  color: #0022f1 !important;
+  background-color: white !important;
+  color: #7a86cb !important;
   border-color: white !important; }
 
 .alert-dark {
-  background-color: #2a2a2a !important;
+  background-color: #878787 !important;
   color: black !important;
-  border-color: #aaaaaa !important; }
+  border-color: #3b3b3b !important; }
 
 .alert-primary .alert-link {
-  background-color: #3233a6 !important;
-  color: black !important;
-  border-color: #e1e1f6 !important; }
+  background-color: #7071c9 !important;
+  color: #020205 !important;
+  border-color: #3a3b99 !important; }
 
 .alert-accent .alert-link {
-  background-color: #00ffc7 !important;
-  color: black !important;
-  border-color: white !important; }
+  background-color: #96ffe8 !important;
+  color: #00634d !important;
+  border-color: #30ffd1 !important; }
 
 .alert-secondary .alert-link {
-  background-color: #3952c5 !important;
-  color: black !important;
-  border-color: #fefeff !important; }
+  background-color: #91a3da !important;
+  color: #0e152b !important;
+  border-color: #4562c0 !important; }
 
 .alert-info .alert-link {
-  background-color: #b6eefc !important;
-  color: #078bac !important;
-  border-color: white !important; }
+  background-color: white !important;
+  color: #32a4c3 !important;
+  border-color: #cfebf2 !important; }
 
 .alert-success .alert-link {
-  background-color: #22a75f !important;
-  color: black !important;
-  border-color: #d2f6e3 !important; }
+  background-color: #70de8e !important;
+  color: #05170a !important;
+  border-color: #2cbc53 !important; }
 
 .alert-danger .alert-link {
-  background-color: #e01e2c !important;
-  color: black !important;
-  border-color: #fffefe !important; }
+  background-color: #ff6666 !important;
+  color: #330000 !important;
+  border-color: red !important; }
 
 .alert-warning .alert-link {
-  background-color: #ffe14e !important;
-  color: #4e4100 !important;
-  border-color: white !important; }
+  background-color: #fff5cd !important;
+  color: #987c02 !important;
+  border-color: #fee268 !important; }
 
 .alert-light .alert-link {
-  background-color: #f1f3ff !important;
-  color: #0022f1 !important;
+  background-color: white !important;
+  color: #7a86cb !important;
   border-color: white !important; }
 
 .alert-dark .alert-link {
-  background-color: #2a2a2a !important;
+  background-color: #6e6e6e !important;
   color: black !important;
-  border-color: #aaaaaa !important; }
+  border-color: #3b3b3b !important; }
 
-/*color-list*/
 .badge-primary {
   background-color: #2c2d74; }
 
@@ -407,40 +407,40 @@ body {
   border-color: #212121 !important; }
 
 .btn-primary:disabled {
-  background-color: #26277f !important;
-  border-color: #26277f !important; }
+  background-color: #1e1f4f !important;
+  border-color: #1e1f4f !important; }
 
 .btn-accent:disabled {
-  background-color: #00cc9f !important;
-  border-color: #00cc9f !important; }
+  background-color: #00c99c !important;
+  border-color: #00c99c !important; }
 
 .btn-secondary:disabled {
-  background-color: #2e429d !important;
-  border-color: #2e429d !important; }
+  background-color: #283b77 !important;
+  border-color: #283b77 !important; }
 
 .btn-info:disabled {
-  background-color: #85e3fa !important;
-  border-color: #85e3fa !important; }
+  background-color: #7dc9de !important;
+  border-color: #7dc9de !important; }
 
 .btn-success:disabled {
-  background-color: #197d47 !important;
-  border-color: #197d47 !important; }
+  background-color: #186a2f !important;
+  border-color: #186a2f !important; }
 
 .btn-danger:disabled {
-  background-color: #b31823 !important;
-  border-color: #b31823 !important; }
+  background-color: #990000 !important;
+  border-color: #990000 !important; }
 
 .btn-warning:disabled {
-  background-color: #ffd81b !important;
-  border-color: #ffd81b !important; }
+  background-color: #fdce03 !important;
+  border-color: #fdce03 !important; }
 
 .btn-light:disabled {
-  background-color: #bec7ff !important;
-  border-color: #bec7ff !important; }
+  background-color: #c3c9e8 !important;
+  border-color: #c3c9e8 !important; }
 
 .btn-dark:disabled {
-  background-color: #111111 !important;
-  border-color: #111111 !important; }
+  background-color: #080808 !important;
+  border-color: #080808 !important; }
 
 .btn-primary {
   background: #2c2d74; }

@@ -1,25 +1,15 @@
-$color-alert: (
-        "primary": #3233a6,
-        "accent": #00ffc7,
-        "secondary":#3952c5,
-        "info":#b6eefc,
-        "success":#22a75f,
-        "danger":#e01e2c,
-        "warning":#ffe14e,
-        "light":#f1f3ff,
-        "dark":#2a2a2a,
-);
 
 // Clase de alertas
-@each $color-name,$color in $color-alert {
+@each $color-name,$color in $color-list {
   .alert-#{$color-name} {
-    background-color: $color !important;
-    color: darken($color,50%)  !important;
-    border-color: lighten($color,50%) !important;}
+    background-color: lighten($color,40%) !important;
+    color: darken($color,30%) !important;
+    border-color: lighten($color,10%) !important;
+  }
 }
-@each $color-name,$color in $color-alert {
+@each $color-name,$color in $color-list {
   .alert-#{$color-name} .alert-link {
-    background-color: $color !important;
-    color: darken($color,50%)  !important;
-    border-color: lighten($color,50%) !important;}
+    background-color: lighten($color,30%) !important;
+    color: darken($color,30%)  !important;
+    border-color: lighten($color,10%) !important;}
 }

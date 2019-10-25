@@ -1,0 +1,33 @@
+/*color basicos*/
+.color-primary{
+  color: $color-light;
+  background: $color-primary;
+}
+.color-secondary{
+  color: $color-light;
+  background: $color-secondary;
+}
+.color-accent{
+  background: $color-accent;
+}
+.color-info{
+  background: $color-info;
+}
+.color-success{
+  color: $color-light;
+  background: $color-success;
+}
+.color-dark{
+  color: $color-light;
+  background: $color-dark;
+}
+.color-light{
+  background: $color-light;
+}
+.color-warning{
+  background: $color-warning;
+}
+.color-danger{
+  color: $color-light;
+  background: $color-danger;
+}
