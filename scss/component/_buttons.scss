@@ -4,6 +4,10 @@
   .btn-#{$color-name} {
     background-color: $color;
     border-color: $color;
+    font-weight: bold;
+    font-size: small;
+    padding-left:  15px;
+    padding-right:  15px;
   }
 }
 
