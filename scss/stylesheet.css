@@ -87,6 +87,15 @@
   color: #e8eaf6;
   background: #CC0000; }
 
+.btn-primary {
+  color: #00fcc4 !important; }
+
+.btn-accent {
+  color: #354e9d !important; }
+
+.btn-secondary {
+  color: #00fcc4 !important; }
+
 /* fuente */
 body {
   font-family: 'Montserrat', sans-serif; }

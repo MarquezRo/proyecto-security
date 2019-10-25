@@ -31,3 +31,16 @@
   color: $color-light;
   background: $color-danger;
 }
+
+//btn-especial
+
+.btn-primary{
+  color:$color-accent !important;
+}
+.btn-accent{
+  color:$color-secondary !important;
+}
+
+.btn-secondary{
+  color:$color-accent !important;
+}
