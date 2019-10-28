@@ -1,6 +1,6 @@
 
 #card-2{
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 3px 3px  rgba(0,0,0,0.2);
 }
 #card-3{
@@ -8,3 +8,10 @@
   box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
 }
 
+.card-text{
+  font-size: 0.8em;
+}
+
+.card-link{
+  text-decoration: underline;
+}
