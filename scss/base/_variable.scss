@@ -1,44 +1,4 @@
-/*color basicos*/
-.color-primary{
-  color: $color-light;
-  background: $color-primary;
-}
-.color-secondary{
-  color: $color-light;
-  background: $color-secondary;
-}
-.color-accent{
-  background: $color-accent;
-}
-.color-info{
-  background: $color-info;
-}
-.color-success{
-  color: $color-light;
-  background: $color-success;
-}
-.color-dark{
-  color: $color-light;
-  background: $color-dark;
-}
-.color-light{
-  background: $color-light;
-}
-.color-warning{
-  background: $color-warning;
-}
-.color-danger{
-  color: $color-light;
-  background: $color-danger;
-}
 
-//btn-especial
+//shadow
 
-.btn-primary{
-  color:$color-accent !important;
-  background: $color-primary;
-}
-.btn-accent{
-  color:$color-secondary !important;
-}
-
+$shadow-1: 2px 2px 5px rgba(0,0,0,0.5);

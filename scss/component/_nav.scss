@@ -1,0 +1,9 @@
+.nav-link{
+   color: white !important;
+   font-size: 0.8rem !important;
+ }
+
+.nav-link:not(:disabled):not(.disabled):active, .nav-link:not(:disabled):not(.disabled).active,
+.show > .nav-link.dropdown-toggle {
+  color: $color-accent !important;
+}

@@ -24,9 +24,6 @@ $color-list: (
 "dark":$color-dark,
 );
 
-
-
-
 // Clase de texto
 @each $color-name,$color in $color-list {
   .text-#{$color-name} {
