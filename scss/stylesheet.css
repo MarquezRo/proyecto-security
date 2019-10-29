@@ -445,6 +445,33 @@ body {
   background-color: #080808 !important;
   border-color: #080808 !important; }
 
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: none; }
+
+.btn-accent:focus, .btn-accent.focus {
+  box-shadow: none; }
+
+.btn-secondary:focus, .btn-secondary.focus {
+  box-shadow: none; }
+
+.btn-info:focus, .btn-info.focus {
+  box-shadow: none; }
+
+.btn-success:focus, .btn-success.focus {
+  box-shadow: none; }
+
+.btn-danger:focus, .btn-danger.focus {
+  box-shadow: none; }
+
+.btn-warning:focus, .btn-warning.focus {
+  box-shadow: none; }
+
+.btn-light:focus, .btn-light.focus {
+  box-shadow: none; }
+
+.btn-dark:focus, .btn-dark.focus {
+  box-shadow: none; }
+
 .btn--shadow {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); }
 
