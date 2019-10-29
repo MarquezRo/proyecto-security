@@ -16,10 +16,10 @@
   color: #229341 !important; }
 
 .text-danger {
-  color: #CC0000 !important; }
+  color: #c54413 !important; }
 
 .text-warning {
-  color: #fdd835 !important; }
+  color: #e9a210 !important; }
 
 .text-light {
   color: #e8eaf6 !important; }
@@ -43,10 +43,10 @@
   background-color: #229341 !important; }
 
 .bg-danger {
-  background-color: #CC0000 !important; }
+  background-color: #c54413 !important; }
 
 .bg-warning {
-  background-color: #fdd835 !important; }
+  background-color: #e9a210 !important; }
 
 .bg-light {
   background-color: #e8eaf6 !important; }
@@ -84,14 +84,14 @@ body {
   border-color: #2cbc53 !important; }
 
 .alert-danger {
-  background-color: #ff9999 !important;
-  color: #330000 !important;
-  border-color: red !important; }
+  background-color: #f7c1ad !important;
+  color: #391406 !important;
+  border-color: #ea5921 !important; }
 
 .alert-warning {
-  background-color: white !important;
-  color: #987c02 !important;
-  border-color: #fee268 !important; }
+  background-color: #fbebca !important;
+  color: #5a3e06 !important;
+  border-color: #f2b63a !important; }
 
 .alert-light {
   background-color: white !important;
@@ -129,14 +129,14 @@ body {
   border-color: #2cbc53 !important; }
 
 .alert-danger .alert-link {
-  background-color: #ff6666 !important;
-  color: #330000 !important;
-  border-color: red !important; }
+  background-color: #f39e7e !important;
+  color: #391406 !important;
+  border-color: #ea5921 !important; }
 
 .alert-warning .alert-link {
-  background-color: #fff5cd !important;
-  color: #987c02 !important;
-  border-color: #fee268 !important; }
+  background-color: #f8d99a !important;
+  color: #5a3e06 !important;
+  border-color: #f2b63a !important; }
 
 .alert-light .alert-link {
   background-color: white !important;
@@ -164,10 +164,10 @@ body {
   background-color: #229341; }
 
 .badge-danger {
-  background-color: #CC0000; }
+  background-color: #c54413; }
 
 .badge-warning {
-  background-color: #fdd835; }
+  background-color: #e9a210; }
 
 .badge-light {
   background-color: #e8eaf6; }
@@ -216,16 +216,16 @@ body {
   padding-right: 15px; }
 
 .btn-danger {
-  background-color: #CC0000;
-  border-color: #CC0000;
+  background-color: #c54413;
+  border-color: #c54413;
   font-weight: bold;
   font-size: small;
   padding-left: 15px;
   padding-right: 15px; }
 
 .btn-warning {
-  background-color: #fdd835;
-  border-color: #fdd835;
+  background-color: #e9a210;
+  border-color: #e9a210;
   font-weight: bold;
   font-size: small;
   padding-left: 15px;
@@ -268,12 +268,12 @@ body {
   border-color: #186a2f !important; }
 
 .btn-danger:hover {
-  background-color: #990000 !important;
-  border-color: #990000 !important; }
+  background-color: #96340f !important;
+  border-color: #96340f !important; }
 
 .btn-warning:hover {
-  background-color: #fdce03 !important;
-  border-color: #fdce03 !important; }
+  background-color: #b9810d !important;
+  border-color: #b9810d !important; }
 
 .btn-light:hover {
   background-color: #c3c9e8 !important;
@@ -304,12 +304,12 @@ body {
   border-color: #229341; }
 
 .btn-outline-danger {
-  color: #CC0000;
-  border-color: #CC0000; }
+  color: #c54413;
+  border-color: #c54413; }
 
 .btn-outline-warning {
-  color: #fdd835;
-  border-color: #fdd835; }
+  color: #e9a210;
+  border-color: #e9a210; }
 
 .btn-outline-light {
   color: #e8eaf6;
@@ -345,14 +345,14 @@ body {
   border-color: #229341 !important; }
 
 .btn-outline-danger:hover {
-  background-color: #CC0000 !important;
-  color: #ffcccc !important;
-  border-color: #CC0000 !important; }
+  background-color: #c54413 !important;
+  color: #fce4db !important;
+  border-color: #c54413 !important; }
 
 .btn-outline-warning:hover {
-  background-color: #fdd835 !important;
-  color: white !important;
-  border-color: #fdd835 !important; }
+  background-color: #e9a210 !important;
+  color: #fffdf9 !important;
+  border-color: #e9a210 !important; }
 
 .btn-outline-light:hover {
   background-color: #e8eaf6 !important;
@@ -390,14 +390,14 @@ body {
   border-color: #229341 !important; }
 
 .btn-danger:not(:disabled):not(disabled):active, .btn-danger:not(:disabled):not(.disabled).active, .show > .btn-danger.dropdown-toggle {
-  background-color: #CC0000 !important;
-  color: #ffcccc !important;
-  border-color: #CC0000 !important; }
+  background-color: #c54413 !important;
+  color: #fce4db !important;
+  border-color: #c54413 !important; }
 
 .btn-warning:not(:disabled):not(disabled):active, .btn-warning:not(:disabled):not(.disabled).active, .show > .btn-warning.dropdown-toggle {
-  background-color: #fdd835 !important;
-  color: white !important;
-  border-color: #fdd835 !important; }
+  background-color: #e9a210 !important;
+  color: #fffdf9 !important;
+  border-color: #e9a210 !important; }
 
 .btn-light:not(:disabled):not(disabled):active, .btn-light:not(:disabled):not(.disabled).active, .show > .btn-light.dropdown-toggle {
   background-color: #e8eaf6 !important;
@@ -430,12 +430,12 @@ body {
   border-color: #186a2f !important; }
 
 .btn-danger:disabled {
-  background-color: #990000 !important;
-  border-color: #990000 !important; }
+  background-color: #96340f !important;
+  border-color: #96340f !important; }
 
 .btn-warning:disabled {
-  background-color: #fdce03 !important;
-  border-color: #fdce03 !important; }
+  background-color: #b9810d !important;
+  border-color: #b9810d !important; }
 
 .btn-light:disabled {
   background-color: #c3c9e8 !important;
@@ -446,11 +446,16 @@ body {
   border-color: #080808 !important; }
 
 .btn--shadow {
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); }
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); }
+
+.btn:hover .move-1 bounce {
+  animation: bounce;
+  transition: all 300ms cubic-bezier(0.4, 0, 1, 1);
+  transition: all 100ms ease-in; }
 
 .card-2 {
   border-radius: 20px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); }
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); }
 
 .card-3 {
   border: none;
@@ -463,7 +468,7 @@ body {
   text-decoration: underline; }
 
 .shadow-1 {
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); }
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); }
 
 .shadow-2 {
   box-shadow: 3px 3px rgba(0, 0, 0, 0.1); }
