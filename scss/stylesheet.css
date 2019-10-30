@@ -10,10 +10,10 @@
   box-shadow: 0 4px 4px rgba(204, 197, 185, 0.7); }
 
 .shadow-4 {
-  box-shadow: 5px 5px 2px rgba(204, 197, 185, 0.8); }
+  box-shadow: 0 5px 5px 2px rgba(204, 197, 185, 0.8); }
 
 .shadow-5 {
-  box-shadow: 6px 6px 3px rgba(204, 197, 185, 0.9); }
+  box-shadow: 0 6px 6px 3px rgba(204, 197, 185, 0.9); }
 
 .container-fluid {
   padding-right: 15px;
@@ -994,7 +994,7 @@ body {
 
 .card {
   border-radius: 6px;
-  box-shadow: 0 4px 4px rgba(204, 197, 185, 0.7);
+  box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
   margin-bottom: 20px; }
 
 .card-img-overlay {
@@ -1004,6 +1004,12 @@ body {
   bottom: 0px;
   left: 91px;
   padding: 1.25rem; }
+
+.card .card-content {
+  padding: 15px 15px 10px 15px; }
+
+.card .card-title, .card .stats, .card .category, .card .description, .card .social-line, .card .actions, .card .card-content, .card .card-footer, .card small, .card a {
+  position: relative; }
 
 .nav-link {
   color: white !important;
