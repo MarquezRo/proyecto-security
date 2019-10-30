@@ -7,3 +7,12 @@
 .show > .nav-link.dropdown-toggle {
   color: $color-accent !important;
 }
+.logo-nav-overlay{
+  position: absolute;
+  top: 2px;
+  right: 0px;
+  bottom: 0px;
+  left: -1px;
+  padding: 1.25rem;
+  width: 172px;
+}
