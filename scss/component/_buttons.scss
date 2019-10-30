@@ -116,8 +116,17 @@
       text-transform: capitalize;
       font-size: 12px;
       font-weight: 600;
+      background-color: darken($color,10%);
+      border-color: darken($color,10%);
     }
   }
+@each $color-name,$color in $color-list {
+  .btn-outline-#{$color-name}:not(:disabled):not(.disabled):active, .btn-outline-#{$color-name}:not(:disabled):not(.disabled).active, .show > .btn-outline-#{$color-name}.dropdown-toggle {
+    color: #fff;
+    background-color: darken($color, 10%);
+    border-color: darken($color, 10%);
+  }
+}
 // estilo flaticon
 .btn-flaticon {
   &::before{
