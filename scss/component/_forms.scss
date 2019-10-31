@@ -1,19 +1,16 @@
 
-// Clase de alertas
-@each $color-name,$color in $color-list {
-  .alert-#{$color-name} {
-    background-color: lighten($color,40%) !important;
-    color: darken($color,30%) !important;
-    border-color: lighten($color,10%) !important;
+.form-control{
+  background-color:lighten($color-primary,60%);
+  &:hover{
+  }
+  &:focus{
+    border: 2px solid $color-accent;
   }
 }
-@each $color-name,$color in $color-list {
-  .alert-#{$color-name} .alert-link {
-    background-color: lighten($color,30%) !important;
-    color: darken($color,30%)  !important;
-    border-color: lighten($color,10%) !important;}
-}
-.form-control{
-  background-color: #F3F2EE;
- color: #66615b;
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }

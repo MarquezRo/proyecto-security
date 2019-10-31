@@ -1040,98 +1040,16 @@ body {
 .nav-link {
   font-size: 1rem; }
 
-.alert-primary {
-  background-color: #9596d7 !important;
-  color: #020205 !important;
-  border-color: #3a3b99 !important; }
-
-.alert-accent {
-  background-color: #c9fff3 !important;
-  color: #00634d !important;
-  border-color: #30ffd1 !important; }
-
-.alert-secondary {
-  background-color: #b7c3e7 !important;
-  color: #0e152b !important;
-  border-color: #4562c0 !important; }
-
-.alert-info {
-  background-color: white !important;
-  color: #32a4c3 !important;
-  border-color: #cfebf2 !important; }
-
-.alert-success {
-  background-color: #99e8af !important;
-  color: #05170a !important;
-  border-color: #2cbc53 !important; }
-
-.alert-danger {
-  background-color: #f7c1ad !important;
-  color: #391406 !important;
-  border-color: #ea5921 !important; }
-
-.alert-warning {
-  background-color: #fbebca !important;
-  color: #5a3e06 !important;
-  border-color: #f2b63a !important; }
-
-.alert-light {
-  background-color: white !important;
-  color: #7a86cb !important;
-  border-color: white !important; }
-
-.alert-dark {
-  background-color: #878787 !important;
-  color: black !important;
-  border-color: #3b3b3b !important; }
-
-.alert-primary .alert-link {
-  background-color: #7071c9 !important;
-  color: #020205 !important;
-  border-color: #3a3b99 !important; }
-
-.alert-accent .alert-link {
-  background-color: #96ffe8 !important;
-  color: #00634d !important;
-  border-color: #30ffd1 !important; }
-
-.alert-secondary .alert-link {
-  background-color: #91a3da !important;
-  color: #0e152b !important;
-  border-color: #4562c0 !important; }
-
-.alert-info .alert-link {
-  background-color: white !important;
-  color: #32a4c3 !important;
-  border-color: #cfebf2 !important; }
-
-.alert-success .alert-link {
-  background-color: #70de8e !important;
-  color: #05170a !important;
-  border-color: #2cbc53 !important; }
-
-.alert-danger .alert-link {
-  background-color: #f39e7e !important;
-  color: #391406 !important;
-  border-color: #ea5921 !important; }
-
-.alert-warning .alert-link {
-  background-color: #f8d99a !important;
-  color: #5a3e06 !important;
-  border-color: #f2b63a !important; }
-
-.alert-light .alert-link {
-  background-color: white !important;
-  color: #7a86cb !important;
-  border-color: white !important; }
-
-.alert-dark .alert-link {
-  background-color: #6e6e6e !important;
-  color: black !important;
-  border-color: #3b3b3b !important; }
-
 .form-control {
-  background-color: #F3F2EE;
-  color: #66615b; }
+  background-color: #dfdff3; }
+  .form-control:focus {
+    border: 2px solid #00fcc4; }
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
 
 /*# sourceMappingURL=stylesheet.css.map */
