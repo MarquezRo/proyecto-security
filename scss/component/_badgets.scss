@@ -1,5 +1,9 @@
 
+// Colores badget
 
- .badge-primary {
-  background: $color-info;
+@each $color-name,$color in $color-list {
+ .badge-#{$color-name} {
+  background-color: $color;
  }
+}
+

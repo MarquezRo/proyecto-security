@@ -1,13 +1,29 @@
 
-.btn-primary{
-  background: $color-primary;
+.card-text{
+  font-size: 0.8em;
 }
 
-#card-2{
-  border-radius: 10px;
-  box-shadow: 3px 3px  rgba(0,0,0,0.2);
+.card-link{
+  text-decoration: underline;
 }
-#card-3{
-  border:none;
-  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+.card{
+  border-radius: 6px;
+  box-shadow: $shadow-1;
+  margin-bottom: 20px;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: -54px;
+  right: 0px;
+  bottom: 0px;
+  left: 91px;
+  padding: 1.25rem;
+}
+.card .card-content {
+  padding: 15px 15px 10px 15px;
+}
+
+.card .card-title, .card .stats, .card .category, .card .description, .card .social-line, .card .actions, .card .card-content, .card .card-footer, .card small, .card a {
+  position: relative;
 }

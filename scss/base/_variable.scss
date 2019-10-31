@@ -1,0 +1,35 @@
+
+/* colors*/
+$color-primary:#2c2d74;
+$color-accent:#00fcc4;
+$color-secondary:#354e9d;
+$color-info:#a6dae8;
+$color-success:#229341;
+$color-danger:#c54413;
+$color-warning:#e9a210;
+$color-light:#e8eaf6;
+$color-dark:#212121;
+
+/*color-list*/
+$color-list: (
+        "primary":$color-primary,
+        "accent":$color-accent,
+        "secondary":$color-secondary,
+        "info":$color-info,
+        "success":$color-success,
+        "danger":$color-danger,
+        "warning":$color-warning,
+        "light":$color-light,
+        "dark":$color-dark,
+);
+
+
+//shadow
+
+$shadow-1: 0 2px 2px rgba(204, 197, 185,0.5);
+$shadow-2: 0 3px 3px rgba(204, 197, 185,0.6);
+$shadow-3: 0 4px 4px rgba(204, 197, 185,0.7);
+$shadow-4: 0 5px 5px 2px rgba(204, 197, 185,0.8);
+$shadow-5: 0 6px 6px 3px rgba(204, 197, 185,0.9);
+
+

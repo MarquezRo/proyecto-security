@@ -1,128 +1,14 @@
-/* colors*/
-$color-primary: #2c2d74;
-$color-accent: #00fcc4;
-$color-secondary: #354e9d;
-$color-info: #a6dae8;
-$color-success: #229341;
-$color-danger: #CC0000;
-$color-warning: #fdd835;
-$color-light: #e8eaf6 ;
-$color-dark: #212121;
 
-/* colors alerts */
-$alert-primary: #323388;
-$alert-accent: #00ffc7;
-$alert-secondary: #3952b1;
-$alert-info: #b6eefc;
-$alert-success: #22a74b;
-$alert-danger: #e00000;
-$alert-warning: #ffed2c;
-$alert-light: #f1f3ff;
-$alert-dark: #2a2a2a;
-
-/* badget alerts */
-$badget-primary: #2c2d74;
-$badget-accent: #00fcc4;
-$badget-secondary: #354e9d;
-$badget-info: #a6dae8;
-$badget-success: #229341;
-$badget-danger: #CC0000;
-$badget-warning: #fdd835;
-$badget-light: #e8eaf6 ;
-$badget-dark: #212121;
-
-body {
-  font-family: 'Montserrat', sans-serif;
+// Clase de texto
+@each $color-name,$color in $color-list {
+  .text-#{$color-name} {
+    color: $color !important;
+  }
 }
-/*color basicos*/
-.color-primary{
-  color: $color-light;
-   background: $color-primary;
- }
-.color-secondary{
-  color: $color-light;
-  background: $color-secondary;
-}
-.color-accent{
-  color: $color-light;
-  background: $color-accent;
-}
-.color-info{
-  background: $color-info;
-}
-.color-success{
-  color: $color-light;
-  background: $color-success;
-}
-.color-dark{
-  color: $color-light;
-  background: $color-dark;
-}
-.color-light{
-  background: $color-light;
-}
-.color-warning{
-  background: $color-warning;
-}
-.color-danger{
-  background: $color-danger;
+// Clase de background
+@each $color-name,$color in $color-list {
+  .bg-#{$color-name} {
+    background-color: $color !important;
+  }
 }
 
-/*badget*/
-.badget-primary{
-  background: $badget-primary;
-}
-.badget-accent{
-  background: $badget-accent;
-}
-.badget-secondary{
-  background: $badget-secondary;
-}
-.badget-info{
-  background: $badget-info;
-}
-.badget-success{
-  background: $badget-success;
-}
-.badget-danger{
-  background: $badget-danger;
-}
-.badget-warning{
-  background: $badget-warning;
-}
-.badget-light{
-  background: $badget-light;
-}
-.badget-dark{
-  background: $badget-dark;
-}
-
-/* alert */
-.alert-primary{
-  background: $alert-primary;
-}
-.alert-accent{
-  background: $alert-accent;
-}
-.alert-secondary{
-  background: $alert-secondary;
-}
-.alert-info{
-  background: $alert-info;
-  color: $color-dark;
-}
-.alert-success{
-  background: $alert-success;
-}
-.alert-danger{
-  background: $alert-danger;
-}
-.alert-warning{
-  background:$alert-warning;
-}
-.alert-light{
-  background: $alert-light;
-}
-.alert-dark{
-  background: $alert-dark;
-}
