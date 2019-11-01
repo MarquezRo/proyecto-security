@@ -1042,14 +1042,13 @@ body {
 
 .form-control {
   background-color: #dfdff3; }
-  .form-control:focus {
-    border: 2px solid #00fcc4; }
 
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #80bdff;
+  border: 2px solid #dfdff3;
+  border-color: #dfdff3;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
+  box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5); }
 
 /*# sourceMappingURL=stylesheet.css.map */
