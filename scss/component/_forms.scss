@@ -10,3 +10,25 @@
   outline: 0;
   box-shadow: $shadow-1;
 }
+.checkbox input[type="checkbox"], .radio input[type="radio"] {
+  opacity: 1;
+  z-index: 1;
+  cursor: pointer;
+  width: 19px;
+  height: 19px;
+  top: -2px;
+}
+.checkbox label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  left: 0;
+  margin-top: -3px;
+  margin-left:35px;
+  border-radius: 3px;
+  opacity: .50;
+  background-color: lighten($color-primary, 60%);
+  transition: opacity 0.2s linear;
+}
