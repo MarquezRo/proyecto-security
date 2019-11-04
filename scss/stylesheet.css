@@ -1082,4 +1082,10 @@ body {
   vertical-align: middle;
   cursor: pointer; }
 
+.checkbox input[type="checkbox"]:disabled + label {
+  color: #cfcfcf; }
+
+.radio input[type="radio"]:disabled + label {
+  color: #cfcfcf; }
+
 /*# sourceMappingURL=stylesheet.css.map */
