@@ -1073,4 +1073,7 @@ body {
   background-color: #dfdff3;
   transition: opacity 0.2s linear; }
 
+.form-control-static {
+  display: block; }
+
 /*# sourceMappingURL=stylesheet.css.map */
