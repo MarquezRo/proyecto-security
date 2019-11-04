@@ -50,3 +50,7 @@
 .radio input[type="radio"]:disabled + label {
   color: #cfcfcf;
 }
+
+.has-success .form-control-feedback, .has-success .control-label {
+  color: #7AC29A;
+}
