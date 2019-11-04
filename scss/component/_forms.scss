@@ -21,7 +21,7 @@
 .checkbox label::before {
   content: "";
   display: inline-block;
-  position: absolute;
+  position: fixed;
   width: 19px;
   height: 19px;
   left: 0;
