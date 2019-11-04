@@ -1073,4 +1073,13 @@ body {
   background-color: #dfdff3;
   transition: opacity 0.2s linear; }
 
+.checkbox-inline, .radio-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: 400;
+  vertical-align: middle;
+  cursor: pointer; }
+
 /*# sourceMappingURL=stylesheet.css.map */
